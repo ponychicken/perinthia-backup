@@ -19,29 +19,9 @@
 
    //Edge symbol: 'cosmos'
    (function(symbolName) {
-      Symbol.bindElementAction(compId, symbolName, "${sterne_zwilling_klein}", "click", function(sym, e) {
-         sym.$("sternenGruppe").css({
-            'pointer-events': 'none'
-         });
-         sym.play("zwilling");
-         sym.getParentSymbol().$("cosmos").animate({
-            scrollTop: 0,
-            scrollLeft: 0
-         }, 2000, "swing");
-      });
-      //Edge binding end
+      
 
-      Symbol.bindElementAction(compId, symbolName, "${sterne_steinbock_klein}", "click", function(sym, e) {
-         sym.$("sternenGruppe").css({
-            'pointer-events': 'none'
-         });
-         sym.play("steinbock");
-         sym.getParentSymbol().$("cosmos").animate({
-            scrollTop: 0,
-            scrollLeft: 0
-         }, 2000, "swing");
-      });
-      //Edge binding end
+      
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 6000, function(sym, e) {
          sym.stop();
@@ -49,7 +29,9 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 9000, function(sym, e) {
+         console.log(7)
          sym.stop();
+
       });
       //Edge binding end
 
@@ -71,29 +53,9 @@
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${sterne_krebs_klein}", "click", function(sym, e) {
-         sym.$("sternenGruppe").css({
-            'pointer-events': 'none'
-         });
-         sym.play('krebs');
-         sym.getParentSymbol().$("cosmos").animate({
-            scrollTop: 0,
-            scrollLeft: 0
-         }, 2000, "swing");
-      });
-      //Edge binding end
+      
 
-      Symbol.bindElementAction(compId, symbolName, "${sterne_waage_small}", "click", function(sym, e) {
-         sym.$("sternenGruppe").css({
-            'pointer-events': 'none'
-         });
-         sym.play('waage');
-         sym.getParentSymbol().$("cosmos").animate({
-            scrollTop: 0,
-            scrollLeft: 0
-         }, 2000, "swing");
-      });
-      //Edge binding end
+      
 
       Symbol.bindElementAction(compId, symbolName, "${perinthia_headline}", "click", function(sym, e) {
          // Play the timeline at a label or specific time. For example:
@@ -126,6 +88,78 @@
       });
       //Edge binding end
 
+      
+
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 18000, function(sym, e) {
+         sym.stop();
+      });
+      //Edge binding end
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 38500, function(sym, e) {
+         sym.stop();
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${sterne_pudding}", "click", function(sym, e) {
+         sym.$("sternenGruppe").css({
+            'pointer-events': 'none'
+         });
+         sym.play("pudding");
+         sym.getParentSymbol().$("cosmos").animate({
+            scrollTop: 0,
+            scrollLeft: 0
+         }, 2000, "swing");
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${sterne_plateau}", "click", function(sym, e) {
+         sym.$("sternenGruppe").css({
+            'pointer-events': 'none'
+         });
+         sym.play('plateau');
+         sym.getParentSymbol().$("cosmos").animate({
+            scrollTop: 0,
+            scrollLeft: 0
+         }, 2000, "swing");
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${sterne_hochhaus}", "click", function(sym, e) {
+         sym.$("sternenGruppe").css({
+            'pointer-events': 'none'
+         });
+         sym.play('Hochhaus');
+         sym.getParentSymbol().$("cosmos").animate({
+            scrollTop: 0,
+            scrollLeft: 0
+         }, 2000, "swing");
+      });
+      //Edge binding end
+
       Symbol.bindElementAction(compId, symbolName, "${sterne_widder}", "click", function(sym, e) {
          sym.$("sternenGruppe").css({
             'pointer-events': 'none'
@@ -138,32 +172,11 @@
       });
       //Edge binding end
 
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 18000, function(sym, e) {
-         sym.stop();
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${haus-pudding}", "click", function(sym, e) {
-         sym.getComposition().getStage().play(21000);
-      });
-      //Edge binding end
-
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 21500, function(sym, e) {
-         sym.stop();
-         sym.getSymbol("haus-pudding").stop();
-      });
-      //Edge binding end
-
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 23000, function(sym, e) {
-         sym.stop();
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${leo}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${sterne_krebs}", "click", function(sym, e) {
          sym.$("sternenGruppe").css({
             'pointer-events': 'none'
          });
-         sym.play("pudding");
+         sym.play('krebs');
          sym.getParentSymbol().$("cosmos").animate({
             scrollTop: 0,
             scrollLeft: 0
@@ -171,61 +184,7 @@
       });
       //Edge binding end
 
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 26500, function(sym, e) {
-         sym.$("cosmos_neu").css({
-            'pointer-events': 'auto'
-         });
-      });
-      //Edge binding end
-
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 19500, function(sym, e) {
-         sym.$("cosmos_neu").css({
-            'pointer-events': 'none'
-         });
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${hochhaus_glas_starsonly}", "click", function(sym, e) {
-         sym.$("sternenGruppe").css({
-            'pointer-events': 'none'
-         });
-         sym.play('Hochhaus');
-         sym.getParentSymbol().$("cosmos").animate({
-            scrollTop: 0,
-            scrollLeft: 0
-         }, 2000, "swing");
-      });
-      //Edge binding end
-
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 31500, function(sym, e) {
-         sym.stop();
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${vogelflug_small}", "click", function(sym, e) {
-         // insert code for mouse click here
-         sym.play("vogel");
-      });
-      //Edge binding end
-
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 35000, function(sym, e) {
-         sym.stop();
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${plateau_fin_sterne22}", "click", function(sym, e) {
-         sym.$("sternenGruppe").css({
-            'pointer-events': 'none'
-         });
-         sym.play('plateau');
-         sym.getParentSymbol().$("cosmos").animate({
-            scrollTop: 0,
-            scrollLeft: 0
-         }, 2000, "swing");
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${poolhouse_star}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${sterne_pool}", "click", function(sym, e) {
          sym.$("sternenGruppe").css({
             'pointer-events': 'none'
          });
@@ -237,8 +196,65 @@
       });
       //Edge binding end
 
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 38500, function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${sterne_zwilling}", "click", function(sym, e) {
+         sym.$("sternenGruppe").css({
+            'pointer-events': 'none'
+         });
+         sym.play("zwilling");
+         sym.getParentSymbol().$("cosmos").animate({
+            scrollTop: 0,
+            scrollLeft: 0
+         }, 2000, "swing");
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${sterne_steinbock}", "click", function(sym, e) {
+         console.log(8)
+         sym.$("sternenGruppe").css({
+            'pointer-events': 'none'
+         });
+         sym.play("steinbock");
+         sym.getParentSymbol().$("cosmos").animate({
+            scrollTop: 0,
+            scrollLeft: 0
+         }, 2000, "swing");
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${sterne_waage}", "click", function(sym, e) {
+         sym.$("sternenGruppe").css({
+            'pointer-events': 'none'
+         });
+         sym.play('waage');
+         sym.getParentSymbol().$("cosmos").animate({
+            scrollTop: 0,
+            scrollLeft: 0
+         }, 2000, "swing");
+      });
+      //Edge binding end
+
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 21000, function(sym, e) {
          sym.stop();
+
+      });
+      //Edge binding end
+
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 24000, function(sym, e) {
+         sym.stop()
+
+      });
+      //Edge binding end
+
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 27000, function(sym, e) {
+         sym.stop();
+
+      });
+      //Edge binding end
+
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 30000, function(sym, e) {
+         sym.stop()
+
       });
       //Edge binding end
 
@@ -300,5 +316,196 @@
    
    })("Haus_Krebs");
    //Edge symbol end:'Haus_Krebs'
+
+   //=========================================================
+   
+   //Edge symbol: 'Haus_Zwilling'
+   (function(symbolName) {   
+   
+   })("Haus_Zwilling");
+   //Edge symbol end:'Haus_Zwilling'
+
+   //=========================================================
+   
+   //Edge symbol: 'Sterne'
+   (function(symbolName) {   
+   
+      Symbol.bindElementAction(compId, symbolName, "${leo}", "click", function(sym, e) {
+         sym.$("sternenGruppe").css({
+            'pointer-events': 'none'
+         });
+         sym.play("pudding");
+         sym.getParentSymbol().$("cosmos").animate({
+            scrollTop: 0,
+            scrollLeft: 0
+         }, 2000, "swing");
+      });
+         //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${plateau_fin_sterne22}", "click", function(sym, e) {
+         sym.$("sternenGruppe").css({
+            'pointer-events': 'none'
+         });
+         sym.play('plateau');
+         sym.getParentSymbol().$("cosmos").animate({
+            scrollTop: 0,
+            scrollLeft: 0
+         }, 2000, "swing");
+      });
+         //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${hochhaus_glas_starsonly}", "click", function(sym, e) {
+         sym.$("sternenGruppe").css({
+            'pointer-events': 'none'
+         });
+         sym.play('Hochhaus');
+         sym.getParentSymbol().$("cosmos").animate({
+            scrollTop: 0,
+            scrollLeft: 0
+         }, 2000, "swing");
+      });
+         //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${sterne_widder}", "click", function(sym, e) {
+         sym.$("sternenGruppe").css({
+            'pointer-events': 'none'
+         });
+         sym.play('widder');
+         sym.getParentSymbol().$("cosmos").animate({
+            scrollTop: 0,
+            scrollLeft: 0
+         }, 2000, "swing");
+      });
+         //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${sterne_krebs_klein}", "click", function(sym, e) {
+         sym.$("sternenGruppe").css({
+            'pointer-events': 'none'
+         });
+         sym.play('krebs');
+         sym.getParentSymbol().$("cosmos").animate({
+            scrollTop: 0,
+            scrollLeft: 0
+         }, 2000, "swing");
+      });
+         //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${poolhouse_star}", "click", function(sym, e) {
+         sym.$("sternenGruppe").css({
+            'pointer-events': 'none'
+         });
+         sym.play('poolhouse');
+         sym.getParentSymbol().$("cosmos").animate({
+            scrollTop: 0,
+            scrollLeft: 0
+         }, 2000, "swing");
+      });
+         //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${sterne_zwilling_klein}", "click", function(sym, e) {
+         sym.$("sternenGruppe").css({
+            'pointer-events': 'none'
+         });
+         sym.play("zwilling");
+         sym.getParentSymbol().$("cosmos").animate({
+            scrollTop: 0,
+            scrollLeft: 0
+         }, 2000, "swing");
+      });
+         //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${sterne_steinbock_klein}", "click", function(sym, e) {
+         sym.$("sternenGruppe").css({
+            'pointer-events': 'none'
+         });
+         sym.play("steinbock");
+         sym.getParentSymbol().$("cosmos").animate({
+            scrollTop: 0,
+            scrollLeft: 0
+         }, 2000, "swing");
+      });
+         //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${sterne_waage_small}", "click", function(sym, e) {
+         sym.$("sternenGruppe").css({
+            'pointer-events': 'none'
+         });
+         sym.play('waage');
+         sym.getParentSymbol().$("cosmos").animate({
+            scrollTop: 0,
+            scrollLeft: 0
+         }, 2000, "swing");
+      });
+         //Edge binding end
+
+   })("Sterne");
+   //Edge symbol end:'Sterne'
+
+   //=========================================================
+   
+   //Edge symbol: 'Haus_Widder'
+   (function(symbolName) {   
+   
+   })("Haus_Widder");
+   //Edge symbol end:'Haus_Widder'
+
+   //=========================================================
+   
+   //Edge symbol: 'Haus_Steinbock'
+   (function(symbolName) {   
+   
+   })("Haus_Steinbock");
+   //Edge symbol end:'Haus_Steinbock'
+
+   //=========================================================
+   
+   //Edge symbol: 'Haus_Waage'
+   (function(symbolName) {   
+   
+      Symbol.bindElementAction(compId, symbolName, "${vogelflug_small}", "click", function(sym, e) {
+         // insert code for mouse click here
+         sym.play("vogel");
+      });
+      //Edge binding end
+
+   })("Haus_Waage");
+   //Edge symbol end:'Haus_Waage'
+
+   //=========================================================
+   
+   //Edge symbol: 'Haus_Pudding'
+   (function(symbolName) {   
+   
+      Symbol.bindElementAction(compId, symbolName, "${haus-pudding}", "click", function(sym, e) {
+         sym.getComposition().getStage().play(21000);
+      });
+         //Edge binding end
+
+   })("Haus_Pudding");
+   //Edge symbol end:'Haus_Pudding'
+
+   //=========================================================
+   
+   //Edge symbol: 'Haus_Hochhaus'
+   (function(symbolName) {   
+   
+   })("Haus_Hochhaus");
+   //Edge symbol end:'Haus_Hochhaus'
+
+   //=========================================================
+   
+   //Edge symbol: 'Haus_Pool'
+   (function(symbolName) {   
+   
+   })("Haus_Pool");
+   //Edge symbol end:'Haus_Pool'
+
+   //=========================================================
+   
+   //Edge symbol: 'Haus_Plateau'
+   (function(symbolName) {   
+   
+   })("Haus_Plateau");
+   //Edge symbol end:'Haus_Plateau'
 
 })(window.jQuery || AdobeEdge.$, AdobeEdge, "EDGE-4595408");
