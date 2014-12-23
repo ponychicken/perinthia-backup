@@ -58,8 +58,8 @@
       
 
       Symbol.bindElementAction(compId, symbolName, "${perinthia_headline}", "click", function(sym, e) {
-         // Play the timeline at a label or specific time. For example:
          sym.play('anfang');
+
       });
       //Edge binding end
 
@@ -129,10 +129,11 @@
             'pointer-events': 'none'
          });
          sym.play("pudding");
-         sym.getParentSymbol().$("cosmos").animate({
+         sym.getParentSymbol().getSymbolElement().animate({
             scrollTop: 0,
             scrollLeft: 0
          }, 2000, "swing");
+
       });
       //Edge binding end
 
@@ -141,10 +142,11 @@
             'pointer-events': 'none'
          });
          sym.play('plateau');
-         sym.getParentSymbol().$("cosmos").animate({
+         sym.getParentSymbol().getSymbolElement().animate({
             scrollTop: 0,
             scrollLeft: 0
          }, 2000, "swing");
+
       });
       //Edge binding end
 
@@ -152,11 +154,13 @@
          sym.$("sternenGruppe").css({
             'pointer-events': 'none'
          });
-         sym.play('Hochhaus');
-         sym.getParentSymbol().$("cosmos").animate({
+         sym.play('hochhaus');
+         
+         sym.getParentSymbol().getSymbolElement().animate({
             scrollTop: 0,
             scrollLeft: 0
          }, 2000, "swing");
+
       });
       //Edge binding end
 
@@ -165,10 +169,11 @@
             'pointer-events': 'none'
          });
          sym.play('widder');
-         sym.getParentSymbol().$("cosmos").animate({
+         sym.getParentSymbol().getSymbolElement().animate({
             scrollTop: 0,
             scrollLeft: 0
          }, 2000, "swing");
+
       });
       //Edge binding end
 
@@ -177,10 +182,12 @@
             'pointer-events': 'none'
          });
          sym.play('krebs');
-         sym.getParentSymbol().$("cosmos").animate({
+         
+         sym.getParentSymbol().getSymbolElement().animate({
             scrollTop: 0,
             scrollLeft: 0
          }, 2000, "swing");
+
       });
       //Edge binding end
 
@@ -189,10 +196,11 @@
             'pointer-events': 'none'
          });
          sym.play('poolhouse');
-         sym.getParentSymbol().$("cosmos").animate({
+         sym.getParentSymbol().getSymbolElement().animate({
             scrollTop: 0,
             scrollLeft: 0
          }, 2000, "swing");
+
       });
       //Edge binding end
 
@@ -201,10 +209,11 @@
             'pointer-events': 'none'
          });
          sym.play("zwilling");
-         sym.getParentSymbol().$("cosmos").animate({
+         sym.getParentSymbol().getSymbolElement().animate({
             scrollTop: 0,
             scrollLeft: 0
          }, 2000, "swing");
+
       });
       //Edge binding end
 
@@ -214,7 +223,7 @@
             'pointer-events': 'none'
          });
          sym.play("steinbock");
-         sym.getParentSymbol().$("cosmos").animate({
+         sym.getParentSymbol().getSymbolElement().animate({
             scrollTop: 0,
             scrollLeft: 0
          }, 2000, "swing");
@@ -227,10 +236,11 @@
             'pointer-events': 'none'
          });
          sym.play('waage');
-         sym.getParentSymbol().$("cosmos").animate({
+         sym.getParentSymbol().getSymbolElement().animate({
             scrollTop: 0,
             scrollLeft: 0
          }, 2000, "swing");
+
       });
       //Edge binding end
 

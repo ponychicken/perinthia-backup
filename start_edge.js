@@ -174,65 +174,71 @@
                             fill: ['rgba(0,0,0,0)', 'images/perinthia_text_vonhand_small.png', '0px', '0px']
                         },
                         {
-                            rect: ['212px', '105px', '372', '312', 'auto', 'auto'],
-                            id: 'sterne_waage',
-                            transform: [[], [], [], ['0.84', '0.84']],
-                            type: 'image',
-                            fill: ['rgba(0,0,0,0)', 'images/haus_waage_newone_sterne.gif', '0px', '0px']
-                        },
-                        {
-                            rect: ['219px', '1116px', '246px', '403px', 'auto', 'auto'],
-                            id: 'sterne_steinbock',
-                            transform: [[], [], [], ['0.63', '0.63']],
-                            type: 'image',
-                            fill: ['rgba(0,0,0,0)', 'images/sterne_steinbock%20_small.gif', '0px', '0px']
-                        },
-                        {
-                            rect: ['808px', '410px', '390px', '393px', 'auto', 'auto'],
-                            id: 'sterne_zwilling',
-                            transform: [[], [], [], ['0.7', '0.7']],
-                            type: 'image',
-                            fill: ['rgba(0,0,0,0)', 'images/sterne_zwilling_small.gif', '0px', '0px']
-                        },
-                        {
-                            id: 'sterne_pool',
-                            type: 'image',
-                            rect: ['1915px', '913px', '235px', '303px', 'auto', 'auto'],
-                            fill: ['rgba(0,0,0,0)', 'images/poolhouse_star.gif', '0px', '0px']
-                        },
-                        {
-                            rect: ['1031px', '1407px', '329px', '216px', 'auto', 'auto'],
-                            id: 'sterne_krebs',
-                            transform: [[], [], [], ['0.7', '0.7']],
-                            type: 'image',
-                            fill: ['rgba(0,0,0,0)', 'images/sterne_krebs_small.gif', '0px', '0px']
-                        },
-                        {
-                            id: 'sterne_widder',
-                            type: 'image',
-                            rect: ['495px', '1656px', '503', '300', 'auto', 'auto'],
-                            fill: ['rgba(0,0,0,0)', 'images/sterne_widder.png', '0px', '0px']
-                        },
-                        {
-                            rect: ['1291px', '1670px', '807px', '912px', 'auto', 'auto'],
-                            id: 'sterne_hochhaus',
-                            transform: [[], ['-1'], [], ['0.46', '0.46']],
-                            type: 'image',
-                            fill: ['rgba(0,0,0,0)', 'images/hochhaus_glas_starsonly.gif', '0px', '0px']
-                        },
-                        {
-                            rect: ['2486px', '1372px', '225px', '166px', 'auto', 'auto'],
-                            id: 'sterne_plateau',
-                            transform: [[], [], [], ['0.65', '0.65']],
-                            type: 'image',
-                            fill: ['rgba(0,0,0,0)', 'images/plateau_fin_sterne2.gif', '0px', '0px']
-                        },
-                        {
-                            rect: ['1257px', '708px', '333px', '300px', 'auto', 'auto'],
-                            id: 'sterne_pudding',
-                            transform: [[], [], [], ['0.62', '0.62']],
-                            type: 'image',
-                            fill: ['rgba(0,0,0,0)', 'images/sterne_leo_small.gif', '0px', '0px']
+                            id: 'sternenGruppe',
+                            type: 'group',
+                            rect: ['242', '130', '2430', '2209', 'auto', 'auto'],
+                            c: [
+                            {
+                                rect: ['-30px', '-25px', '372', '312', 'auto', 'auto'],
+                                id: 'sterne_waage',
+                                transform: [[], [], [], ['0.84', '0.84']],
+                                type: 'image',
+                                fill: ['rgba(0,0,0,0)', 'images/haus_waage_newone_sterne.gif', '0px', '0px']
+                            },
+                            {
+                                rect: ['-23px', '986px', '246px', '403px', 'auto', 'auto'],
+                                id: 'sterne_steinbock',
+                                transform: [[], [], [], ['0.63', '0.63']],
+                                type: 'image',
+                                fill: ['rgba(0,0,0,0)', 'images/sterne_steinbock%20_small.gif', '0px', '0px']
+                            },
+                            {
+                                rect: ['566px', '280px', '390px', '393px', 'auto', 'auto'],
+                                id: 'sterne_zwilling',
+                                transform: [[], [], [], ['0.7', '0.7']],
+                                type: 'image',
+                                fill: ['rgba(0,0,0,0)', 'images/sterne_zwilling_small.gif', '0px', '0px']
+                            },
+                            {
+                                id: 'sterne_pool',
+                                type: 'image',
+                                rect: ['1673px', '783px', '235px', '303px', 'auto', 'auto'],
+                                fill: ['rgba(0,0,0,0)', 'images/poolhouse_star.gif', '0px', '0px']
+                            },
+                            {
+                                rect: ['789px', '1269px', '329px', '266px', 'auto', 'auto'],
+                                id: 'sterne_krebs',
+                                transform: [[], [], [], ['0.7', '0.7']],
+                                type: 'image',
+                                fill: ['rgba(0,0,0,0)', 'images/sterne_krebs_small.gif', '0px', '0px']
+                            },
+                            {
+                                id: 'sterne_widder',
+                                type: 'image',
+                                rect: ['253px', '1526px', '503', '300', 'auto', 'auto'],
+                                fill: ['rgba(0,0,0,0)', 'images/sterne_widder.png', '0px', '0px']
+                            },
+                            {
+                                rect: ['1051px', '1435px', '807px', '1303px', 'auto', 'auto'],
+                                id: 'sterne_hochhaus',
+                                transform: [[], [], [], ['0.46', '0.46']],
+                                type: 'image',
+                                fill: ['rgba(0,0,0,0)', 'images/hochhaus_glas_starsonly.gif', '0px', '0px']
+                            },
+                            {
+                                rect: ['2244px', '1242px', '225px', '166px', 'auto', 'auto'],
+                                id: 'sterne_plateau',
+                                transform: [[], [], [], ['0.65', '0.65']],
+                                type: 'image',
+                                fill: ['rgba(0,0,0,0)', 'images/plateau_fin_sterne2.gif', '0px', '0px']
+                            },
+                            {
+                                rect: ['1015px', '578px', '333px', '300px', 'auto', 'auto'],
+                                id: 'sterne_pudding',
+                                transform: [[], [], [], ['0.62', '0.62']],
+                                type: 'image',
+                                fill: ['rgba(0,0,0,0)', 'images/sterne_leo_small.gif', '0px', '0px']
+                            }]
                         },
                         {
                             rect: ['0', '0%', '100%', '100%', 'auto', 'auto'],
@@ -420,94 +426,34 @@
                             'none'
                         ],
                         [
-                            "eid11",
-                            "scaleY",
-                            4000,
-                            2000,
+                            "eid97",
+                            "display",
+                            0,
+                            0,
                             "linear",
-                            "${canvas}",
-                            '1',
-                            '1.8'
+                            "${ButtonStart}",
+                            'block',
+                            'block'
                         ],
                         [
-                            "eid35",
-                            "scaleY",
-                            7000,
-                            2000,
+                            "eid166",
+                            "display",
+                            1000,
+                            0,
                             "linear",
-                            "${canvas}",
-                            '1',
-                            '1.8'
+                            "${ButtonStart}",
+                            'block',
+                            'block'
                         ],
                         [
-                            "eid60",
-                            "scaleY",
-                            10000,
-                            2000,
+                            "eid98",
+                            "display",
+                            3000,
+                            0,
                             "linear",
-                            "${canvas}",
-                            '1',
-                            '1.8'
-                        ],
-                        [
-                            "eid75",
-                            "scaleY",
-                            13000,
-                            2000,
-                            "linear",
-                            "${canvas}",
-                            '1',
-                            '1.8'
-                        ],
-                        [
-                            "eid118",
-                            "scaleY",
-                            16000,
-                            2000,
-                            "linear",
-                            "${canvas}",
-                            '1',
-                            '1.8'
-                        ],
-                        [
-                            "eid148",
-                            "scaleY",
-                            19000,
-                            2000,
-                            "linear",
-                            "${canvas}",
-                            '1',
-                            '1.8'
-                        ],
-                        [
-                            "eid177",
-                            "scaleY",
-                            22000,
-                            2000,
-                            "linear",
-                            "${canvas}",
-                            '1',
-                            '1.8'
-                        ],
-                        [
-                            "eid236",
-                            "scaleY",
-                            25000,
-                            2000,
-                            "linear",
-                            "${canvas}",
-                            '1',
-                            '1.8'
-                        ],
-                        [
-                            "eid257",
-                            "scaleY",
-                            28000,
-                            2000,
-                            "linear",
-                            "${canvas}",
-                            '1',
-                            '1.8'
+                            "${ButtonStart}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid299",
@@ -650,32 +596,32 @@
                             '1.8'
                         ],
                         [
-                            "eid329",
+                            "eid324",
                             "display",
                             0,
                             0,
                             "linear",
-                            "${Haus_Pool}",
+                            "${Haus_Hochhaus}",
                             'none',
                             'none'
                         ],
                         [
-                            "eid332",
+                            "eid314",
                             "display",
-                            28000,
+                            22000,
                             0,
                             "linear",
-                            "${Haus_Pool}",
+                            "${Haus_Hochhaus}",
                             'none',
                             'block'
                         ],
                         [
-                            "eid333",
+                            "eid313",
                             "display",
-                            30500,
+                            24500,
                             0,
                             "linear",
-                            "${Haus_Pool}",
+                            "${Haus_Hochhaus}",
                             'block',
                             'none'
                         ],
@@ -720,33 +666,43 @@
                             '1016px'
                         ],
                         [
-                            "eid358",
+                            "eid371",
                             "left",
                             10000,
                             2000,
                             "linear",
                             "${canvas}",
                             '271px',
-                            '-432px'
+                            '-417px'
                         ],
                         [
-                            "eid351",
+                            "eid372",
                             "left",
-                            13000,
-                            0,
+                            12000,
+                            1000,
                             "linear",
                             "${canvas}",
-                            '-432px',
+                            '-417px',
                             '271px'
                         ],
                         [
-                            "eid352",
+                            "eid374",
                             "left",
-                            15000,
-                            0,
+                            13000,
+                            2000,
                             "linear",
                             "${canvas}",
                             '271px',
+                            '894px'
+                        ],
+                        [
+                            "eid375",
+                            "left",
+                            15000,
+                            1000,
+                            "linear",
+                            "${canvas}",
+                            '894px',
                             '271px'
                         ],
                         [
@@ -760,34 +716,64 @@
                             '653px'
                         ],
                         [
-                            "eid349",
+                            "eid378",
                             "left",
                             19000,
                             2000,
                             "linear",
                             "${canvas}",
                             '271px',
-                            '-1035px'
+                            '282px'
                         ],
                         [
-                            "eid348",
+                            "eid379",
+                            "left",
+                            21000,
+                            1000,
+                            "linear",
+                            "${canvas}",
+                            '282px',
+                            '271px'
+                        ],
+                        [
+                            "eid381",
                             "left",
                             22000,
                             2000,
                             "linear",
                             "${canvas}",
-                            '-1035px',
+                            '271px',
                             '-1636px'
                         ],
                         [
-                            "eid347",
+                            "eid382",
+                            "left",
+                            24000,
+                            1000,
+                            "linear",
+                            "${canvas}",
+                            '-1636px',
+                            '271px'
+                        ],
+                        [
+                            "eid384",
                             "left",
                             25000,
                             2000,
                             "linear",
                             "${canvas}",
-                            '-1636px',
-                            '-2688px'
+                            '271px',
+                            '-2681px'
+                        ],
+                        [
+                            "eid385",
+                            "left",
+                            27000,
+                            1000,
+                            "linear",
+                            "${canvas}",
+                            '-2681px',
+                            '271px'
                         ],
                         [
                             "eid258",
@@ -796,7 +782,7 @@
                             2000,
                             "linear",
                             "${canvas}",
-                            '-2688px',
+                            '271px',
                             '-1528px'
                         ],
                         [
@@ -887,7 +873,7 @@
                             "linear",
                             "${canvas}",
                             '402px',
-                            '5px'
+                            '405px'
                         ],
                         [
                             "eid337",
@@ -896,7 +882,7 @@
                             2000,
                             "linear",
                             "${canvas}",
-                            '5px',
+                            '405px',
                             '-1203px'
                         ],
                         [
@@ -930,122 +916,32 @@
                             '597px'
                         ],
                         [
-                            "eid97",
+                            "eid325",
                             "display",
                             0,
                             0,
                             "linear",
-                            "${ButtonStart}",
-                            'block',
-                            'block'
-                        ],
-                        [
-                            "eid166",
-                            "display",
-                            1000,
-                            0,
-                            "linear",
-                            "${ButtonStart}",
-                            'block',
-                            'block'
-                        ],
-                        [
-                            "eid98",
-                            "display",
-                            3000,
-                            0,
-                            "linear",
-                            "${ButtonStart}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid91",
-                            "opacity",
-                            0,
-                            1000,
-                            "linear",
-                            "${perinthia_headline}",
-                            '1',
-                            '0'
-                        ],
-                        [
-                            "eid326",
-                            "display",
-                            0,
-                            0,
-                            "linear",
-                            "${Haus_Krebs}",
+                            "${Haus_Steinbock}",
                             'none',
                             'none'
                         ],
                         [
-                            "eid306",
+                            "eid303",
                             "display",
-                            10000,
+                            7000,
                             0,
                             "linear",
-                            "${Haus_Krebs}",
+                            "${Haus_Steinbock}",
                             'none',
                             'block'
                         ],
                         [
-                            "eid305",
+                            "eid302",
                             "display",
-                            12500,
+                            9500,
                             0,
                             "linear",
-                            "${Haus_Krebs}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid324",
-                            "display",
-                            0,
-                            0,
-                            "linear",
-                            "${Haus_Hochhaus}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid314",
-                            "display",
-                            22000,
-                            0,
-                            "linear",
-                            "${Haus_Hochhaus}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid313",
-                            "display",
-                            24500,
-                            0,
-                            "linear",
-                            "${Haus_Hochhaus}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid144",
-                            "display",
-                            0,
-                            0,
-                            "linear",
-                            "${perinthia_headline}",
-                            'block',
-                            'block'
-                        ],
-                        [
-                            "eid145",
-                            "display",
-                            3000,
-                            0,
-                            "linear",
-                            "${perinthia_headline}",
+                            "${Haus_Steinbock}",
                             'block',
                             'none'
                         ],
@@ -1080,34 +976,184 @@
                             'none'
                         ],
                         [
-                            "eid325",
+                            "eid326",
                             "display",
                             0,
                             0,
                             "linear",
-                            "${Haus_Steinbock}",
+                            "${Haus_Krebs}",
                             'none',
                             'none'
                         ],
                         [
-                            "eid303",
+                            "eid306",
                             "display",
-                            7000,
+                            10000,
                             0,
                             "linear",
-                            "${Haus_Steinbock}",
+                            "${Haus_Krebs}",
                             'none',
                             'block'
                         ],
                         [
-                            "eid302",
+                            "eid305",
                             "display",
-                            9500,
+                            12500,
                             0,
                             "linear",
-                            "${Haus_Steinbock}",
+                            "${Haus_Krebs}",
                             'block',
                             'none'
+                        ],
+                        [
+                            "eid329",
+                            "display",
+                            0,
+                            0,
+                            "linear",
+                            "${Haus_Pool}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid332",
+                            "display",
+                            28000,
+                            0,
+                            "linear",
+                            "${Haus_Pool}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid333",
+                            "display",
+                            30500,
+                            0,
+                            "linear",
+                            "${Haus_Pool}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid144",
+                            "display",
+                            0,
+                            0,
+                            "linear",
+                            "${perinthia_headline}",
+                            'block',
+                            'block'
+                        ],
+                        [
+                            "eid145",
+                            "display",
+                            3000,
+                            0,
+                            "linear",
+                            "${perinthia_headline}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid11",
+                            "scaleY",
+                            4000,
+                            2000,
+                            "linear",
+                            "${canvas}",
+                            '1',
+                            '1.8'
+                        ],
+                        [
+                            "eid35",
+                            "scaleY",
+                            7000,
+                            2000,
+                            "linear",
+                            "${canvas}",
+                            '1',
+                            '1.8'
+                        ],
+                        [
+                            "eid60",
+                            "scaleY",
+                            10000,
+                            2000,
+                            "linear",
+                            "${canvas}",
+                            '1',
+                            '1.8'
+                        ],
+                        [
+                            "eid75",
+                            "scaleY",
+                            13000,
+                            2000,
+                            "linear",
+                            "${canvas}",
+                            '1',
+                            '1.8'
+                        ],
+                        [
+                            "eid118",
+                            "scaleY",
+                            16000,
+                            2000,
+                            "linear",
+                            "${canvas}",
+                            '1',
+                            '1.8'
+                        ],
+                        [
+                            "eid148",
+                            "scaleY",
+                            19000,
+                            2000,
+                            "linear",
+                            "${canvas}",
+                            '1',
+                            '1.8'
+                        ],
+                        [
+                            "eid177",
+                            "scaleY",
+                            22000,
+                            2000,
+                            "linear",
+                            "${canvas}",
+                            '1',
+                            '1.8'
+                        ],
+                        [
+                            "eid236",
+                            "scaleY",
+                            25000,
+                            2000,
+                            "linear",
+                            "${canvas}",
+                            '1',
+                            '1.8'
+                        ],
+                        [
+                            "eid257",
+                            "scaleY",
+                            28000,
+                            2000,
+                            "linear",
+                            "${canvas}",
+                            '1',
+                            '1.8'
+                        ],
+                        [
+                            "eid91",
+                            "opacity",
+                            0,
+                            1000,
+                            "linear",
+                            "${perinthia_headline}",
+                            '1',
+                            '0'
                         ],
                             [ "eid318", "trigger", 9000, function executeSymbolFunction(e, data) { this._executeSymbolAction(e, data); }, ['play', '${Haus_Steinbock}', [] ] ]
                     ]
@@ -1123,10 +1169,10 @@
                 content: {
                     dom: [
                         {
-                            rect: ['0px', '214px', '851px', '726px', 'auto', 'auto'],
+                            type: 'image',
                             id: 'haus_krebs_klein-new',
                             opacity: '1',
-                            type: 'image',
+                            rect: ['0px', '214px', '851px', '726px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/haus_krebs_klein-new.jpg', '0px', '0px']
                         }
                     ],
@@ -1154,15 +1200,15 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
-                            id: 'hauszwilling_ohneschaukel-new',
                             rect: ['0px', '-2px', '706px', '1006px', 'auto', 'auto'],
+                            id: 'hauszwilling_ohneschaukel-new',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/hauszwilling_ohneschaukel-new.jpg', '0px', '0px']
                         },
                         {
-                            type: 'image',
-                            id: 'zwillinge_schaukeln-new',
                             rect: ['502px', '560px', '188px', '171px', 'auto', 'auto'],
+                            id: 'zwillinge_schaukeln-new',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/zwillinge_schaukeln-new.gif', '0px', '0px']
                         }
                     ],
@@ -1190,10 +1236,10 @@
                 content: {
                     dom: [
                         {
-                            rect: ['0px', '0px', '1000px', '1254px', 'auto', 'auto'],
-                            id: 'waldhuette2',
                             type: 'image',
                             display: 'none',
+                            rect: ['0px', '0px', '1000px', '1254px', 'auto', 'auto'],
+                            id: 'waldhuette2',
                             fill: ['rgba(0,0,0,0)', 'images/waldhuette.gif', '0px', '0px']
                         }
                     ],
@@ -1273,16 +1319,16 @@
                 content: {
                     dom: [
                         {
-                            rect: ['0px', '0px', '854', '1139', 'auto', 'auto'],
-                            id: 'haus-waage',
                             type: 'image',
+                            id: 'haus-waage',
+                            rect: ['0px', '0px', '854', '1139', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/haus_waage_newone_small.jpg', '0px', '0px']
                         },
                         {
-                            rect: ['-649px', '237px', '1691px', '300px', 'auto', 'auto'],
                             transform: [[], [], [], ['0.3', '0.3']],
-                            id: 'vogelflug_small',
                             type: 'image',
+                            id: 'vogelflug_small',
+                            rect: ['-649px', '237px', '1691px', '300px', 'auto', 'auto'],
                             clip: 'rect(0px 180px 220px 0px)',
                             fill: ['rgba(0,0,0,0)', 'images/vogelflug_small.png', '0px', '0px']
                         }
@@ -1297,115 +1343,6 @@
                     duration: 800,
                     autoPlay: true,
                     data: [
-                        [
-                            "eid279",
-                            "clip",
-                            0,
-                            0,
-                            "linear",
-                            "${vogelflug_small}",
-                            [0,180,220,0],
-                            [0,180,220,0],
-                            {valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'}
-                        ],
-                        [
-                            "eid280",
-                            "clip",
-                            100,
-                            0,
-                            "linear",
-                            "${vogelflug_small}",
-                            [0,180,220,0],
-                            [0,180,220,0],
-                            {valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'}
-                        ],
-                        [
-                            "eid281",
-                            "clip",
-                            200,
-                            0,
-                            "linear",
-                            "${vogelflug_small}",
-                            [0,180,220,0],
-                            [0,180,220,0],
-                            {valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'}
-                        ],
-                        [
-                            "eid282",
-                            "clip",
-                            300,
-                            0,
-                            "linear",
-                            "${vogelflug_small}",
-                            [0,180,220,0],
-                            [0,180,235,0],
-                            {valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'}
-                        ],
-                        [
-                            "eid283",
-                            "clip",
-                            400,
-                            0,
-                            "linear",
-                            "${vogelflug_small}",
-                            [0,180,235,0],
-                            [0,180,261,0],
-                            {valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'}
-                        ],
-                        [
-                            "eid284",
-                            "clip",
-                            500,
-                            0,
-                            "linear",
-                            "${vogelflug_small}",
-                            [0,180,261,0],
-                            [0,180,261,0],
-                            {valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'}
-                        ],
-                        [
-                            "eid285",
-                            "clip",
-                            600,
-                            0,
-                            "linear",
-                            "${vogelflug_small}",
-                            [0,180,261,0],
-                            [0,180,272,0],
-                            {valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'}
-                        ],
-                        [
-                            "eid286",
-                            "clip",
-                            700,
-                            0,
-                            "linear",
-                            "${vogelflug_small}",
-                            [0,180,272,0],
-                            [0,180,272,0],
-                            {valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'}
-                        ],
-                        [
-                            "eid287",
-                            "clip",
-                            800,
-                            0,
-                            "linear",
-                            "${vogelflug_small}",
-                            [0,180,272,0],
-                            [0,180,272,0],
-                            {valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'}
-                        ],
-                        [
-                            "eid288",
-                            "left",
-                            0,
-                            800,
-                            "linear",
-                            "${vogelflug_small}",
-                            '-328px',
-                            '-649px'
-                        ],
                         [
                             "eid289",
                             "background-position",
@@ -1504,6 +1441,115 @@
                             [-1294,0],
                             [-1484,0],
                             {valueTemplate: '@@0@@px @@1@@px'}
+                        ],
+                        [
+                            "eid288",
+                            "left",
+                            0,
+                            800,
+                            "linear",
+                            "${vogelflug_small}",
+                            '-328px',
+                            '-649px'
+                        ],
+                        [
+                            "eid279",
+                            "clip",
+                            0,
+                            0,
+                            "linear",
+                            "${vogelflug_small}",
+                            [0,180,220,0],
+                            [0,180,220,0],
+                            {valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'}
+                        ],
+                        [
+                            "eid280",
+                            "clip",
+                            100,
+                            0,
+                            "linear",
+                            "${vogelflug_small}",
+                            [0,180,220,0],
+                            [0,180,220,0],
+                            {valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'}
+                        ],
+                        [
+                            "eid281",
+                            "clip",
+                            200,
+                            0,
+                            "linear",
+                            "${vogelflug_small}",
+                            [0,180,220,0],
+                            [0,180,220,0],
+                            {valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'}
+                        ],
+                        [
+                            "eid282",
+                            "clip",
+                            300,
+                            0,
+                            "linear",
+                            "${vogelflug_small}",
+                            [0,180,220,0],
+                            [0,180,235,0],
+                            {valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'}
+                        ],
+                        [
+                            "eid283",
+                            "clip",
+                            400,
+                            0,
+                            "linear",
+                            "${vogelflug_small}",
+                            [0,180,235,0],
+                            [0,180,261,0],
+                            {valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'}
+                        ],
+                        [
+                            "eid284",
+                            "clip",
+                            500,
+                            0,
+                            "linear",
+                            "${vogelflug_small}",
+                            [0,180,261,0],
+                            [0,180,261,0],
+                            {valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'}
+                        ],
+                        [
+                            "eid285",
+                            "clip",
+                            600,
+                            0,
+                            "linear",
+                            "${vogelflug_small}",
+                            [0,180,261,0],
+                            [0,180,272,0],
+                            {valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'}
+                        ],
+                        [
+                            "eid286",
+                            "clip",
+                            700,
+                            0,
+                            "linear",
+                            "${vogelflug_small}",
+                            [0,180,272,0],
+                            [0,180,272,0],
+                            {valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'}
+                        ],
+                        [
+                            "eid287",
+                            "clip",
+                            800,
+                            0,
+                            "linear",
+                            "${vogelflug_small}",
+                            [0,180,272,0],
+                            [0,180,272,0],
+                            {valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'}
                         ]
                     ]
                 }
@@ -1527,7 +1573,7 @@
                     }
                 },
                 timeline: {
-                    duration: 8249,
+                    duration: 0,
                     autoPlay: true,
                     data: [
 
@@ -1577,10 +1623,10 @@
                 content: {
                     dom: [
                         {
-                            transform: [[], [], [], ['0.5', '0.5']],
-                            id: 'poolhouse_withoutstar2',
                             type: 'image',
+                            id: 'poolhouse_withoutstar2',
                             rect: ['-517px', '-512px', '2070px', '2048px', 'auto', 'auto'],
+                            transform: [[], [], [], ['0.5', '0.5']],
                             fill: ['rgba(0,0,0,0)', 'images/poolhouse_withoutstar.gif', '0px', '0px']
                         }
                     ],
@@ -1608,10 +1654,10 @@
                 content: {
                     dom: [
                         {
-                            transform: [[], [], [], ['0.3', '0.3']],
-                            id: 'plateau_fin_ohnesterne',
                             type: 'image',
+                            id: 'plateau_fin_ohnesterne',
                             rect: ['-1014px', '-1352px', '2898', '3864', 'auto', 'auto'],
+                            transform: [[], [], [], ['0.3', '0.3']],
                             fill: ['rgba(0,0,0,0)', 'images/plateau_fin_ohnesterne.gif', '0px', '0px']
                         }
                     ],
