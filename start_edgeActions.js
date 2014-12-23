@@ -258,56 +258,13 @@
       });
       //Edge binding end
 
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 4000, function(sym, e) {
+         // insert code here
+      });
+      //Edge binding end
+
    })("cosmos");
    //Edge symbol end:'cosmos'
-
-   //=========================================================
-
-   //Edge symbol: 'haus-steinbock'
-   (function(symbolName) {
-
-   })("haus-steinbock");
-   //Edge symbol end:'haus-steinbock'
-
-   //=========================================================
-
-   //Edge symbol: 'haus-zwilling'
-   (function(symbolName) {
-
-   })("haus-zwilling");
-   //Edge symbol end:'haus-zwilling'
-
-   //=========================================================
-
-   //Edge symbol: 'haus_pudding_spritesheet2_symbol_1'
-   (function(symbolName) {
-
-      Symbol.bindElementAction(compId, symbolName, "${haus_pudding_spritesheet2}", "click", function(sym, e) {
-         // insert code for mouse click here
-         sym.play();
-      });
-      //Edge binding end
-
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 0, function(sym, e) {
-         // insert code here
-         sym.stop();
-      });
-      //Edge binding end
-
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 8249, function(sym, e) {
-         sym.getParentSymbol().$("cosmos_neu").css({
-            'pointer-events': 'auto'
-         });
-      });
-      //Edge binding end
-
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 4874, function(sym, e) {
-         sym.stop();
-      });
-      //Edge binding end
-
-   })("haus_pudding_spritesheet2_symbol_1");
-   //Edge symbol end:'haus_pudding_spritesheet2_symbol_1'
 
    //=========================================================
    
@@ -324,122 +281,6 @@
    
    })("Haus_Zwilling");
    //Edge symbol end:'Haus_Zwilling'
-
-   //=========================================================
-   
-   //Edge symbol: 'Sterne'
-   (function(symbolName) {   
-   
-      Symbol.bindElementAction(compId, symbolName, "${leo}", "click", function(sym, e) {
-         sym.$("sternenGruppe").css({
-            'pointer-events': 'none'
-         });
-         sym.play("pudding");
-         sym.getParentSymbol().$("cosmos").animate({
-            scrollTop: 0,
-            scrollLeft: 0
-         }, 2000, "swing");
-      });
-         //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${plateau_fin_sterne22}", "click", function(sym, e) {
-         sym.$("sternenGruppe").css({
-            'pointer-events': 'none'
-         });
-         sym.play('plateau');
-         sym.getParentSymbol().$("cosmos").animate({
-            scrollTop: 0,
-            scrollLeft: 0
-         }, 2000, "swing");
-      });
-         //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${hochhaus_glas_starsonly}", "click", function(sym, e) {
-         sym.$("sternenGruppe").css({
-            'pointer-events': 'none'
-         });
-         sym.play('Hochhaus');
-         sym.getParentSymbol().$("cosmos").animate({
-            scrollTop: 0,
-            scrollLeft: 0
-         }, 2000, "swing");
-      });
-         //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${sterne_widder}", "click", function(sym, e) {
-         sym.$("sternenGruppe").css({
-            'pointer-events': 'none'
-         });
-         sym.play('widder');
-         sym.getParentSymbol().$("cosmos").animate({
-            scrollTop: 0,
-            scrollLeft: 0
-         }, 2000, "swing");
-      });
-         //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${sterne_krebs_klein}", "click", function(sym, e) {
-         sym.$("sternenGruppe").css({
-            'pointer-events': 'none'
-         });
-         sym.play('krebs');
-         sym.getParentSymbol().$("cosmos").animate({
-            scrollTop: 0,
-            scrollLeft: 0
-         }, 2000, "swing");
-      });
-         //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${poolhouse_star}", "click", function(sym, e) {
-         sym.$("sternenGruppe").css({
-            'pointer-events': 'none'
-         });
-         sym.play('poolhouse');
-         sym.getParentSymbol().$("cosmos").animate({
-            scrollTop: 0,
-            scrollLeft: 0
-         }, 2000, "swing");
-      });
-         //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${sterne_zwilling_klein}", "click", function(sym, e) {
-         sym.$("sternenGruppe").css({
-            'pointer-events': 'none'
-         });
-         sym.play("zwilling");
-         sym.getParentSymbol().$("cosmos").animate({
-            scrollTop: 0,
-            scrollLeft: 0
-         }, 2000, "swing");
-      });
-         //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${sterne_steinbock_klein}", "click", function(sym, e) {
-         sym.$("sternenGruppe").css({
-            'pointer-events': 'none'
-         });
-         sym.play("steinbock");
-         sym.getParentSymbol().$("cosmos").animate({
-            scrollTop: 0,
-            scrollLeft: 0
-         }, 2000, "swing");
-      });
-         //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${sterne_waage_small}", "click", function(sym, e) {
-         sym.$("sternenGruppe").css({
-            'pointer-events': 'none'
-         });
-         sym.play('waage');
-         sym.getParentSymbol().$("cosmos").animate({
-            scrollTop: 0,
-            scrollLeft: 0
-         }, 2000, "swing");
-      });
-         //Edge binding end
-
-   })("Sterne");
-   //Edge symbol end:'Sterne'
 
    //=========================================================
    
@@ -476,10 +317,7 @@
    //Edge symbol: 'Haus_Pudding'
    (function(symbolName) {   
    
-      Symbol.bindElementAction(compId, symbolName, "${haus-pudding}", "click", function(sym, e) {
-         sym.getComposition().getStage().play(21000);
-      });
-         //Edge binding end
+      
 
    })("Haus_Pudding");
    //Edge symbol end:'Haus_Pudding'

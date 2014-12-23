@@ -84,7 +84,7 @@
                         {
                             id: 'canvas',
                             type: 'group',
-                            rect: ['-1214px', '-1203px', '1040', '1213', 'auto', 'auto'],
+                            rect: ['-1528px', '597px', '1040', '1213', 'auto', 'auto'],
                             c: [
                             {
                                 type: 'rect',
@@ -650,32 +650,32 @@
                             '1.8'
                         ],
                         [
-                            "eid324",
+                            "eid329",
                             "display",
                             0,
                             0,
                             "linear",
-                            "${Haus_Hochhaus}",
+                            "${Haus_Pool}",
                             'none',
                             'none'
                         ],
                         [
-                            "eid314",
+                            "eid332",
                             "display",
-                            22000,
+                            28000,
                             0,
                             "linear",
-                            "${Haus_Hochhaus}",
+                            "${Haus_Pool}",
                             'none',
                             'block'
                         ],
                         [
-                            "eid313",
+                            "eid333",
                             "display",
-                            24500,
+                            30500,
                             0,
                             "linear",
-                            "${Haus_Hochhaus}",
+                            "${Haus_Pool}",
                             'block',
                             'none'
                         ],
@@ -720,7 +720,7 @@
                             '1016px'
                         ],
                         [
-                            "eid61",
+                            "eid358",
                             "left",
                             10000,
                             2000,
@@ -730,14 +730,24 @@
                             '-432px'
                         ],
                         [
-                            "eid76",
+                            "eid351",
                             "left",
                             13000,
-                            2000,
+                            0,
+                            "linear",
+                            "${canvas}",
+                            '-432px',
+                            '271px'
+                        ],
+                        [
+                            "eid352",
+                            "left",
+                            15000,
+                            0,
                             "linear",
                             "${canvas}",
                             '271px',
-                            '898px'
+                            '271px'
                         ],
                         [
                             "eid119",
@@ -746,38 +756,38 @@
                             2000,
                             "linear",
                             "${canvas}",
-                            '264px',
+                            '271px',
                             '653px'
                         ],
                         [
-                            "eid149",
+                            "eid349",
                             "left",
                             19000,
                             2000,
                             "linear",
                             "${canvas}",
-                            '264px',
-                            '-1042px'
+                            '271px',
+                            '-1035px'
                         ],
                         [
-                            "eid176",
+                            "eid348",
                             "left",
                             22000,
                             2000,
                             "linear",
                             "${canvas}",
-                            '-1042px',
-                            '-1610px'
+                            '-1035px',
+                            '-1636px'
                         ],
                         [
-                            "eid235",
+                            "eid347",
                             "left",
                             25000,
                             2000,
                             "linear",
                             "${canvas}",
-                            '-1610px',
-                            '-1042px'
+                            '-1636px',
+                            '-2688px'
                         ],
                         [
                             "eid258",
@@ -786,8 +796,8 @@
                             2000,
                             "linear",
                             "${canvas}",
-                            '-1042px',
-                            '-1214px'
+                            '-2688px',
+                            '-1528px'
                         ],
                         [
                             "eid327",
@@ -816,66 +826,6 @@
                             0,
                             "linear",
                             "${Haus_Waage}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid325",
-                            "display",
-                            0,
-                            0,
-                            "linear",
-                            "${Haus_Steinbock}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid303",
-                            "display",
-                            7000,
-                            0,
-                            "linear",
-                            "${Haus_Steinbock}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid302",
-                            "display",
-                            9500,
-                            0,
-                            "linear",
-                            "${Haus_Steinbock}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid329",
-                            "display",
-                            0,
-                            0,
-                            "linear",
-                            "${Haus_Pool}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid332",
-                            "display",
-                            28000,
-                            0,
-                            "linear",
-                            "${Haus_Pool}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid333",
-                            "display",
-                            30000,
-                            0,
-                            "linear",
-                            "${Haus_Pool}",
                             'block',
                             'none'
                         ],
@@ -977,37 +927,47 @@
                             "linear",
                             "${canvas}",
                             '5px',
-                            '731px'
+                            '597px'
                         ],
                         [
-                            "eid92",
+                            "eid97",
                             "display",
                             0,
                             0,
                             "linear",
-                            "${perinthia_text}",
-                            'none',
-                            'none'
+                            "${ButtonStart}",
+                            'block',
+                            'block'
                         ],
                         [
-                            "eid93",
+                            "eid166",
                             "display",
                             1000,
                             0,
                             "linear",
-                            "${perinthia_text}",
-                            'none',
+                            "${ButtonStart}",
+                            'block',
                             'block'
                         ],
                         [
-                            "eid99",
+                            "eid98",
                             "display",
                             3000,
                             0,
                             "linear",
-                            "${perinthia_text}",
+                            "${ButtonStart}",
                             'block',
                             'none'
+                        ],
+                        [
+                            "eid91",
+                            "opacity",
+                            0,
+                            1000,
+                            "linear",
+                            "${perinthia_headline}",
+                            '1',
+                            '0'
                         ],
                         [
                             "eid326",
@@ -1040,6 +1000,36 @@
                             'none'
                         ],
                         [
+                            "eid324",
+                            "display",
+                            0,
+                            0,
+                            "linear",
+                            "${Haus_Hochhaus}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid314",
+                            "display",
+                            22000,
+                            0,
+                            "linear",
+                            "${Haus_Hochhaus}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid313",
+                            "display",
+                            24500,
+                            0,
+                            "linear",
+                            "${Haus_Hochhaus}",
+                            'block',
+                            'none'
+                        ],
+                        [
                             "eid144",
                             "display",
                             0,
@@ -1060,344 +1050,66 @@
                             'none'
                         ],
                         [
-                            "eid91",
-                            "opacity",
-                            0,
-                            1000,
-                            "linear",
-                            "${perinthia_headline}",
-                            '1',
-                            '0'
-                        ],
-                        [
-                            "eid97",
+                            "eid92",
                             "display",
                             0,
                             0,
                             "linear",
-                            "${ButtonStart}",
-                            'block',
-                            'block'
+                            "${perinthia_text}",
+                            'none',
+                            'none'
                         ],
                         [
-                            "eid166",
+                            "eid93",
                             "display",
                             1000,
                             0,
                             "linear",
-                            "${ButtonStart}",
-                            'block',
+                            "${perinthia_text}",
+                            'none',
                             'block'
                         ],
                         [
-                            "eid98",
+                            "eid99",
                             "display",
                             3000,
                             0,
                             "linear",
-                            "${ButtonStart}",
+                            "${perinthia_text}",
                             'block',
                             'none'
                         ],
-                            [ "eid316", "trigger", 9000, function executeSymbolFunction(e, data) { this._executeSymbolAction(e, data); }, ['play', '${Haus_Steinbock}', [] ] ],
-                            [ "eid318", "trigger", 9000, function executeSymbolFunction(e, data) { this._executeSymbolAction(e, data); }, ['play', '${Haus_Steinbock}', [0] ] ]
-                    ]
-                }
-            },
-            "haus-steinbock": {
-                version: "5.0.1",
-                minimumCompatibleVersion: "5.0.0",
-                build: "5.0.1.386",
-                scaleToFit: "none",
-                centerStage: "none",
-                resizeInstances: false,
-                content: {
-                    dom: [
-                        {
-                            rect: [0, 0, 854, 1139, 'auto', 'auto'],
-                            id: 'haus_steinbock_klein',
-                            opacity: '1',
-                            type: 'image',
-                            fill: ['rgba(0,0,0,0)', 'images/haus_steinbock_klein.jpg', '0px', '0px']
-                        }
-                    ],
-                    style: {
-                        '${symbolSelector}': {
-                            rect: [null, null, 854, 1139]
-                        }
-                    }
-                },
-                timeline: {
-                    duration: 0,
-                    autoPlay: false,
-                    data: [
-
-                    ]
-                }
-            },
-            "haus-zwilling": {
-                version: "5.0.1",
-                minimumCompatibleVersion: "5.0.0",
-                build: "5.0.1.386",
-                scaleToFit: "none",
-                centerStage: "none",
-                resizeInstances: false,
-                content: {
-                    dom: [
-                        {
-                            rect: [0, 0, 854, 1139, 'auto', 'auto'],
-                            id: 'haus_zwilling_klein',
-                            opacity: '1',
-                            type: 'image',
-                            fill: ['rgba(0,0,0,0)', 'images/hauszwilling_ohneschaukel.jpg', '0px', '0px']
-                        }
-                    ],
-                    style: {
-                        '${symbolSelector}': {
-                            rect: [null, null, 854, 1139]
-                        }
-                    }
-                },
-                timeline: {
-                    duration: 0,
-                    autoPlay: false,
-                    data: [
-
-                    ]
-                }
-            },
-            "haus_pudding_spritesheet2_symbol_1": {
-                version: "5.0.1",
-                minimumCompatibleVersion: "5.0.0",
-                build: "5.0.1.386",
-                scaleToFit: "none",
-                centerStage: "none",
-                resizeInstances: false,
-                content: {
-                    dom: [
-                        {
-                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['0%', '0%']],
-                            id: 'haus_pudding_spritesheet2',
-                            type: 'image',
-                            rect: [0, 0, 1536, 2048, 'auto', 'auto'],
-                            fill: ['rgba(0,0,0,0)', 'images/haus_pudding_spritesheet2-kleiner.jpg', '0px', '0px', '7680px 6144px', '6144px']
-                        }
-                    ],
-                    style: {
-                        '${symbolSelector}': {
-                            rect: [null, null, 1536, 2048]
-                        }
-                    }
-                },
-                timeline: {
-                    duration: 8249,
-                    autoPlay: true,
-                    data: [
                         [
-                            "eid46",
-                            "height",
+                            "eid325",
+                            "display",
                             0,
                             0,
                             "linear",
-                            "${haus_pudding_spritesheet2}",
-                            '0px',
-                            '2048px'
+                            "${Haus_Steinbock}",
+                            'none',
+                            'none'
                         ],
                         [
-                            "eid153",
-                            "left",
-                            0,
+                            "eid303",
+                            "display",
+                            7000,
                             0,
                             "linear",
-                            "${haus_pudding_spritesheet2}",
-                            '0px',
-                            '0px'
+                            "${Haus_Steinbock}",
+                            'none',
+                            'block'
                         ],
                         [
-                            "eid48",
-                            "background-position",
-                            3000,
+                            "eid302",
+                            "display",
+                            9500,
                             0,
                             "linear",
-                            "${haus_pudding_spritesheet2}",
-                            [0,0],
-                            [0,0],
-                            {valueTemplate: '@@0@@px @@1@@px'}
+                            "${Haus_Steinbock}",
+                            'block',
+                            'none'
                         ],
-                        [
-                            "eid49",
-                            "background-position",
-                            3374,
-                            0,
-                            "linear",
-                            "${haus_pudding_spritesheet2}",
-                            [0,0],
-                            [-1536,0],
-                            {valueTemplate: '@@0@@px @@1@@px'}
-                        ],
-                        [
-                            "eid50",
-                            "background-position",
-                            3749,
-                            0,
-                            "linear",
-                            "${haus_pudding_spritesheet2}",
-                            [-1536,0],
-                            [-3072,0],
-                            {valueTemplate: '@@0@@px @@1@@px'}
-                        ],
-                        [
-                            "eid51",
-                            "background-position",
-                            4124,
-                            0,
-                            "linear",
-                            "${haus_pudding_spritesheet2}",
-                            [-3072,0],
-                            [-4608,0],
-                            {valueTemplate: '@@0@@px @@1@@px'}
-                        ],
-                        [
-                            "eid52",
-                            "background-position",
-                            4499,
-                            0,
-                            "linear",
-                            "${haus_pudding_spritesheet2}",
-                            [-4608,0],
-                            [-6144,0],
-                            {valueTemplate: '@@0@@px @@1@@px'}
-                        ],
-                        [
-                            "eid53",
-                            "background-position",
-                            4874,
-                            0,
-                            "linear",
-                            "${haus_pudding_spritesheet2}",
-                            [-6144,0],
-                            [0,-2048],
-                            {valueTemplate: '@@0@@px @@1@@px'}
-                        ],
-                        [
-                            "eid54",
-                            "background-position",
-                            5249,
-                            0,
-                            "linear",
-                            "${haus_pudding_spritesheet2}",
-                            [0,-2048],
-                            [-1536,-2048],
-                            {valueTemplate: '@@0@@px @@1@@px'}
-                        ],
-                        [
-                            "eid55",
-                            "background-position",
-                            5624,
-                            0,
-                            "linear",
-                            "${haus_pudding_spritesheet2}",
-                            [-1536,-2048],
-                            [-3072,-2048],
-                            {valueTemplate: '@@0@@px @@1@@px'}
-                        ],
-                        [
-                            "eid56",
-                            "background-position",
-                            5999,
-                            0,
-                            "linear",
-                            "${haus_pudding_spritesheet2}",
-                            [-3072,-2048],
-                            [-4608,-2048],
-                            {valueTemplate: '@@0@@px @@1@@px'}
-                        ],
-                        [
-                            "eid57",
-                            "background-position",
-                            6374,
-                            0,
-                            "linear",
-                            "${haus_pudding_spritesheet2}",
-                            [-4608,-2048],
-                            [-6144,-2048],
-                            {valueTemplate: '@@0@@px @@1@@px'}
-                        ],
-                        [
-                            "eid58",
-                            "background-position",
-                            6749,
-                            0,
-                            "linear",
-                            "${haus_pudding_spritesheet2}",
-                            [-6144,-2048],
-                            [0,-4096],
-                            {valueTemplate: '@@0@@px @@1@@px'}
-                        ],
-                        [
-                            "eid59",
-                            "background-position",
-                            7124,
-                            0,
-                            "linear",
-                            "${haus_pudding_spritesheet2}",
-                            [0,-4096],
-                            [-1536,-4096],
-                            {valueTemplate: '@@0@@px @@1@@px'}
-                        ],
-                        [
-                            "eid60",
-                            "background-position",
-                            7499,
-                            0,
-                            "linear",
-                            "${haus_pudding_spritesheet2}",
-                            [-1536,-4096],
-                            [-3072,-4096],
-                            {valueTemplate: '@@0@@px @@1@@px'}
-                        ],
-                        [
-                            "eid61",
-                            "background-position",
-                            7874,
-                            0,
-                            "linear",
-                            "${haus_pudding_spritesheet2}",
-                            [-3072,-4096],
-                            [-4608,-4096],
-                            {valueTemplate: '@@0@@px @@1@@px'}
-                        ],
-                        [
-                            "eid62",
-                            "background-position",
-                            8249,
-                            0,
-                            "linear",
-                            "${haus_pudding_spritesheet2}",
-                            [-4608,-4096],
-                            [-6144,-4096],
-                            {valueTemplate: '@@0@@px @@1@@px'}
-                        ],
-                        [
-                            "eid47",
-                            "width",
-                            0,
-                            0,
-                            "linear",
-                            "${haus_pudding_spritesheet2}",
-                            '0px',
-                            '1536px'
-                        ],
-                        [
-                            "eid164",
-                            "top",
-                            0,
-                            0,
-                            "linear",
-                            "${haus_pudding_spritesheet2}",
-                            '0px',
-                            '0px'
-                        ]
+                            [ "eid318", "trigger", 9000, function executeSymbolFunction(e, data) { this._executeSymbolAction(e, data); }, ['play', '${Haus_Steinbock}', [] ] ]
                     ]
                 }
             },
@@ -1411,10 +1123,10 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
+                            rect: ['0px', '214px', '851px', '726px', 'auto', 'auto'],
                             id: 'haus_krebs_klein-new',
                             opacity: '1',
-                            rect: ['0px', '214px', '851px', '726px', 'auto', 'auto'],
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/haus_krebs_klein-new.jpg', '0px', '0px']
                         }
                     ],
@@ -1442,107 +1154,21 @@
                 content: {
                     dom: [
                         {
-                            rect: ['0px', '-2px', '706px', '1006px', 'auto', 'auto'],
-                            id: 'hauszwilling_ohneschaukel-new',
                             type: 'image',
+                            id: 'hauszwilling_ohneschaukel-new',
+                            rect: ['0px', '-2px', '706px', '1006px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/hauszwilling_ohneschaukel-new.jpg', '0px', '0px']
                         },
                         {
-                            rect: ['502px', '560px', '188px', '171px', 'auto', 'auto'],
-                            id: 'zwillinge_schaukeln-new',
                             type: 'image',
+                            id: 'zwillinge_schaukeln-new',
+                            rect: ['502px', '560px', '188px', '171px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/zwillinge_schaukeln-new.gif', '0px', '0px']
                         }
                     ],
                     style: {
                         '${symbolSelector}': {
                             rect: [null, null, '706px', '1001px']
-                        }
-                    }
-                },
-                timeline: {
-                    duration: 0,
-                    autoPlay: true,
-                    data: [
-
-                    ]
-                }
-            },
-            "Sterne": {
-                version: "5.0.1",
-                minimumCompatibleVersion: "5.0.0",
-                build: "5.0.1.386",
-                scaleToFit: "none",
-                centerStage: "none",
-                resizeInstances: false,
-                content: {
-                    dom: [
-                        {
-                            rect: ['224px', '237px', '372', '312', 'auto', 'auto'],
-                            id: 'sterne_waage_small',
-                            transform: [[], [], [], ['0.84', '0.84']],
-                            type: 'image',
-                            fill: ['rgba(0,0,0,0)', 'images/haus_waage_newone_sterne.gif', '0px', '0px']
-                        },
-                        {
-                            rect: ['231px', '1248px', '246px', '403px', 'auto', 'auto'],
-                            id: 'sterne_steinbock_klein',
-                            transform: [[], [], [], ['0.63', '0.63']],
-                            type: 'image',
-                            fill: ['rgba(0,0,0,0)', 'images/sterne_steinbock%20_small.gif', '0px', '0px']
-                        },
-                        {
-                            rect: ['820px', '542px', '390px', '393px', 'auto', 'auto'],
-                            id: 'sterne_zwilling_klein',
-                            transform: [[], [], [], ['0.7', '0.7']],
-                            type: 'image',
-                            fill: ['rgba(0,0,0,0)', 'images/sterne_zwilling_small.gif', '0px', '0px']
-                        },
-                        {
-                            id: 'poolhouse_star',
-                            type: 'image',
-                            rect: ['1927px', '1045px', '235px', '303px', 'auto', 'auto'],
-                            fill: ['rgba(0,0,0,0)', 'images/poolhouse_star.gif', '0px', '0px']
-                        },
-                        {
-                            rect: ['1052px', '1539px', '269px', '216px', 'auto', 'auto'],
-                            id: 'sterne_krebs_klein',
-                            transform: [[], [], [], ['0.7', '0.7']],
-                            type: 'image',
-                            fill: ['rgba(0,0,0,0)', 'images/sterne_krebs_small.gif', '0px', '0px']
-                        },
-                        {
-                            id: 'sterne_widder',
-                            type: 'image',
-                            rect: ['507px', '1788px', '503', '300', 'auto', 'auto'],
-                            fill: ['rgba(0,0,0,0)', 'images/sterne_widder.png', '0px', '0px']
-                        },
-                        {
-                            rect: ['1423px', '1888px', '357px', '600px', 'auto', 'auto'],
-                            id: 'hochhaus_glas_starsonly',
-                            transform: [[], ['-1'], [], ['0.46', '0.46']],
-                            type: 'image',
-                            fill: ['rgba(0,0,0,0)', 'images/hochhaus_glas_starsonly.gif', '0px', '0px']
-                        },
-                        {
-                            rect: ['2498px', '1504px', '225px', '166px', 'auto', 'auto'],
-                            id: 'plateau_fin_sterne22',
-                            transform: [[], [], [], ['0.65', '0.65']],
-                            type: 'image',
-                            fill: ['rgba(0,0,0,0)', 'images/plateau_fin_sterne2.gif', '0px', '0px']
-                        },
-                        {
-                            rect: ['1294px', '840px', '200px', '300px', 'auto', 'auto'],
-                            id: 'leo',
-                            transform: [[], [], [], ['0.62', '0.62']],
-                            type: 'image',
-                            fill: ['rgba(0,0,0,0)', 'images/sterne_leo_small.gif', '0px', '0px']
-                        }
-                    ],
-                    style: {
-                        '${symbolSelector}': {
-                            isStage: 'true',
-                            rect: [undefined, undefined, '2684px', '3442px']
                         }
                     }
                 },
@@ -1564,10 +1190,10 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
-                            display: 'none',
                             rect: ['0px', '0px', '1000px', '1254px', 'auto', 'auto'],
                             id: 'waldhuette2',
+                            type: 'image',
+                            display: 'none',
                             fill: ['rgba(0,0,0,0)', 'images/waldhuette.gif', '0px', '0px']
                         }
                     ],
@@ -1625,8 +1251,7 @@
                     ],
                     style: {
                         '${symbolSelector}': {
-                            isStage: 'true',
-                            rect: [undefined, undefined, '854px', '1139px']
+                            rect: [null, null, '854px', '1139px']
                         }
                     }
                 },
@@ -1648,16 +1273,16 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
-                            id: 'haus-waage',
                             rect: ['0px', '0px', '854', '1139', 'auto', 'auto'],
+                            id: 'haus-waage',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/haus_waage_newone_small.jpg', '0px', '0px']
                         },
                         {
-                            type: 'image',
                             rect: ['-649px', '237px', '1691px', '300px', 'auto', 'auto'],
-                            id: 'vogelflug_small',
                             transform: [[], [], [], ['0.3', '0.3']],
+                            id: 'vogelflug_small',
+                            type: 'image',
                             clip: 'rect(0px 180px 220px 0px)',
                             fill: ['rgba(0,0,0,0)', 'images/vogelflug_small.png', '0px', '0px']
                         }
@@ -1672,115 +1297,6 @@
                     duration: 800,
                     autoPlay: true,
                     data: [
-                        [
-                            "eid289",
-                            "background-position",
-                            0,
-                            0,
-                            "linear",
-                            "${vogelflug_small}",
-                            [0,0],
-                            [0,0],
-                            {valueTemplate: '@@0@@px @@1@@px'}
-                        ],
-                        [
-                            "eid290",
-                            "background-position",
-                            100,
-                            0,
-                            "linear",
-                            "${vogelflug_small}",
-                            [0,0],
-                            [-186,0],
-                            {valueTemplate: '@@0@@px @@1@@px'}
-                        ],
-                        [
-                            "eid291",
-                            "background-position",
-                            200,
-                            0,
-                            "linear",
-                            "${vogelflug_small}",
-                            [-186,0],
-                            [-373,0],
-                            {valueTemplate: '@@0@@px @@1@@px'}
-                        ],
-                        [
-                            "eid292",
-                            "background-position",
-                            300,
-                            0,
-                            "linear",
-                            "${vogelflug_small}",
-                            [-373,0],
-                            [-551,0],
-                            {valueTemplate: '@@0@@px @@1@@px'}
-                        ],
-                        [
-                            "eid293",
-                            "background-position",
-                            400,
-                            0,
-                            "linear",
-                            "${vogelflug_small}",
-                            [-551,0],
-                            [-742,0],
-                            {valueTemplate: '@@0@@px @@1@@px'}
-                        ],
-                        [
-                            "eid294",
-                            "background-position",
-                            500,
-                            0,
-                            "linear",
-                            "${vogelflug_small}",
-                            [-742,0],
-                            [-935,0],
-                            {valueTemplate: '@@0@@px @@1@@px'}
-                        ],
-                        [
-                            "eid295",
-                            "background-position",
-                            600,
-                            0,
-                            "linear",
-                            "${vogelflug_small}",
-                            [-935,0],
-                            [-1114,0],
-                            {valueTemplate: '@@0@@px @@1@@px'}
-                        ],
-                        [
-                            "eid296",
-                            "background-position",
-                            700,
-                            0,
-                            "linear",
-                            "${vogelflug_small}",
-                            [-1114,0],
-                            [-1294,0],
-                            {valueTemplate: '@@0@@px @@1@@px'}
-                        ],
-                        [
-                            "eid297",
-                            "background-position",
-                            800,
-                            0,
-                            "linear",
-                            "${vogelflug_small}",
-                            [-1294,0],
-                            [-1484,0],
-                            {valueTemplate: '@@0@@px @@1@@px'}
-                        ],
-                        [
-                            "eid288",
-                            "left",
-                            0,
-                            800,
-                            "linear",
-                            "${vogelflug_small}",
-                            '-328px',
-                            '-649px'
-                        ],
                         [
                             "eid279",
                             "clip",
@@ -1879,6 +1395,115 @@
                             [0,180,272,0],
                             [0,180,272,0],
                             {valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'}
+                        ],
+                        [
+                            "eid288",
+                            "left",
+                            0,
+                            800,
+                            "linear",
+                            "${vogelflug_small}",
+                            '-328px',
+                            '-649px'
+                        ],
+                        [
+                            "eid289",
+                            "background-position",
+                            0,
+                            0,
+                            "linear",
+                            "${vogelflug_small}",
+                            [0,0],
+                            [0,0],
+                            {valueTemplate: '@@0@@px @@1@@px'}
+                        ],
+                        [
+                            "eid290",
+                            "background-position",
+                            100,
+                            0,
+                            "linear",
+                            "${vogelflug_small}",
+                            [0,0],
+                            [-186,0],
+                            {valueTemplate: '@@0@@px @@1@@px'}
+                        ],
+                        [
+                            "eid291",
+                            "background-position",
+                            200,
+                            0,
+                            "linear",
+                            "${vogelflug_small}",
+                            [-186,0],
+                            [-373,0],
+                            {valueTemplate: '@@0@@px @@1@@px'}
+                        ],
+                        [
+                            "eid292",
+                            "background-position",
+                            300,
+                            0,
+                            "linear",
+                            "${vogelflug_small}",
+                            [-373,0],
+                            [-551,0],
+                            {valueTemplate: '@@0@@px @@1@@px'}
+                        ],
+                        [
+                            "eid293",
+                            "background-position",
+                            400,
+                            0,
+                            "linear",
+                            "${vogelflug_small}",
+                            [-551,0],
+                            [-742,0],
+                            {valueTemplate: '@@0@@px @@1@@px'}
+                        ],
+                        [
+                            "eid294",
+                            "background-position",
+                            500,
+                            0,
+                            "linear",
+                            "${vogelflug_small}",
+                            [-742,0],
+                            [-935,0],
+                            {valueTemplate: '@@0@@px @@1@@px'}
+                        ],
+                        [
+                            "eid295",
+                            "background-position",
+                            600,
+                            0,
+                            "linear",
+                            "${vogelflug_small}",
+                            [-935,0],
+                            [-1114,0],
+                            {valueTemplate: '@@0@@px @@1@@px'}
+                        ],
+                        [
+                            "eid296",
+                            "background-position",
+                            700,
+                            0,
+                            "linear",
+                            "${vogelflug_small}",
+                            [-1114,0],
+                            [-1294,0],
+                            {valueTemplate: '@@0@@px @@1@@px'}
+                        ],
+                        [
+                            "eid297",
+                            "background-position",
+                            800,
+                            0,
+                            "linear",
+                            "${vogelflug_small}",
+                            [-1294,0],
+                            [-1484,0],
+                            {valueTemplate: '@@0@@px @@1@@px'}
                         ]
                     ]
                 }
@@ -1892,13 +1517,7 @@
                 resizeInstances: false,
                 content: {
                     dom: [
-                        {
-                            type: 'rect',
-                            id: 'haus-pudding',
-                            symbolName: 'haus_pudding_spritesheet2_symbol_1',
-                            transform: [[], [], [], ['0.55599', '0.55599']],
-                            rect: ['-341px', '-455px', '1536', '2048', 'auto', 'auto']
-                        }
+
                     ],
                     style: {
                         '${symbolSelector}': {
@@ -1908,10 +1527,10 @@
                     }
                 },
                 timeline: {
-                    duration: 27249,
+                    duration: 8249,
                     autoPlay: true,
                     data: [
-                            [ "eid165", "trigger", 19000, function executeSymbolFunction(e, data) { this._executeSymbolAction(e, data); }, ['play', '${haus-pudding}', [0] ] ]
+
                     ]
                 }
             },
@@ -1936,8 +1555,7 @@
                     ],
                     style: {
                         '${symbolSelector}': {
-                            isStage: 'true',
-                            rect: [undefined, undefined, '665px', '820px']
+                            rect: [null, null, '665px', '820px']
                         }
                     }
                 },
@@ -1959,17 +1577,16 @@
                 content: {
                     dom: [
                         {
-                            rect: ['-517px', '-512px', '2070px', '2048px', 'auto', 'auto'],
-                            id: 'poolhouse_withoutstar2',
                             transform: [[], [], [], ['0.5', '0.5']],
+                            id: 'poolhouse_withoutstar2',
                             type: 'image',
+                            rect: ['-517px', '-512px', '2070px', '2048px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/poolhouse_withoutstar.gif', '0px', '0px']
                         }
                     ],
                     style: {
                         '${symbolSelector}': {
-                            isStage: 'true',
-                            rect: [undefined, undefined, '1035px', '1024px']
+                            rect: [null, null, '1035px', '1024px']
                         }
                     }
                 },
@@ -1991,17 +1608,16 @@
                 content: {
                     dom: [
                         {
-                            rect: ['-1014px', '-1352px', '2898', '3864', 'auto', 'auto'],
-                            id: 'plateau_fin_ohnesterne',
                             transform: [[], [], [], ['0.3', '0.3']],
+                            id: 'plateau_fin_ohnesterne',
                             type: 'image',
+                            rect: ['-1014px', '-1352px', '2898', '3864', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/plateau_fin_ohnesterne.gif', '0px', '0px']
                         }
                     ],
                     style: {
                         '${symbolSelector}': {
-                            isStage: 'true',
-                            rect: [undefined, undefined, '869px', '1159px']
+                            rect: [null, null, '869px', '1159px']
                         }
                     }
                 },
